@@ -1,17 +1,17 @@
 import Head from 'next/head'
-
+import App from '../components/driverApp'
 
 export default function Home() {
   return (
-    <div className='text-blue-400'>
+    <div>
       <Head>
         <title>Jay Gurjar Porfolio</title>
         <meta name="description" content="Porfolio website by Jay Gurjar" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-       
+      <main className=' bg-white px-10 '>
+        <App/>
       </main>
     </div>
   )
