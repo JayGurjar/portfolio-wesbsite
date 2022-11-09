@@ -26,7 +26,7 @@ const Porfolio = (props) => {
                         className='rounded-xl object-cover'
                     />
                     <p className=' text-lg font-mono font-medium pt-4 pb-2'>
-                        <a href="https://github.com/alisiddiqi/Learning-Management-System" target={'_blank'} className='text-blue-400 underline'>
+                        <a href="https://github.com/alisiddiqi/Learning-Management-System" target={'_blank'} rel='noreferrer' className='text-blue-400 underline'>
                             Learning Mangement System
                         </a>
                     </p>
@@ -50,7 +50,7 @@ const Porfolio = (props) => {
                         className='rounded-xl object-cover'
                     />
                     <p className=' text-lg font-mono font-medium pt-4 pb-2'>
-                        <a href="https://github.com/JayGurjar/Ubor" target={'_blank'} className='text-blue-400 underline'>
+                        <a href="https://github.com/JayGurjar/Ubor" target={'_blank'} rel='noreferrer' className='text-blue-400 underline'>
                             Ride sharing App
                         </a>
                     </p>
@@ -75,7 +75,7 @@ const Porfolio = (props) => {
                         className='rounded-xl object-cover'
                     />
                     <p className=' text-lg font-mono font-medium pt-4 pb-2'>
-                        <a href="https://github.com/JayGurjar/StockPortfolioStatementGenerator" target={'_blank'} className='text-blue-400 underline'>
+                        <a href="https://github.com/JayGurjar/StockPortfolioStatementGenerator" rel='noreferrer' target={'_blank'} className='text-blue-400 underline'>
                             Stock Market Statement generator
                         </a>
                     </p>
@@ -98,7 +98,7 @@ const Porfolio = (props) => {
                         className='rounded-xl object-cover'
                     />
                     <p className=' text-lg font-mono font-medium pt-4 pb-2'>
-                        <a href="https://github.com/Risath18/rent-management" target={'_blank'} className='text-blue-400 underline'>
+                        <a href="https://github.com/Risath18/rent-management" target={'_blank'} rel='noreferrer' className='text-blue-400 underline'>
                             Rental Property Management system
                         </a>
                     </p>
@@ -123,7 +123,7 @@ const Porfolio = (props) => {
                         className='rounded-xl object-cover'
                     />
                     <p className=' text-lg font-mono font-medium pt-4 pb-2'>
-                        <a href="https://github.com/JayGurjar/Furniture-Management-System/" target={'_blank'} className='text-blue-400 underline'>
+                        <a href="https://github.com/JayGurjar/Furniture-Management-System/" target={'_blank'} rel='noreferrer' className='text-blue-400 underline'>
                             Furniture Management System
                         </a>
                     </p>
