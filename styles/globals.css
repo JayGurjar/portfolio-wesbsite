@@ -24,6 +24,16 @@ a {
   src: url('../public/Burtons.otf');
 }
 
+@font-face {
+  font-family: 'nimbusOblique';
+  src: url('../public/NimbusMono-Oblique.otf');
+}
+
+@font-face {
+  font-family: 'nimbusRegular';
+  src: url('../public/NimbusMono-Regular.otf');
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
