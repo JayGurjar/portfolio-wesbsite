@@ -7,7 +7,7 @@ export default function Home() {
       <Head>
         <title>Jay Gurjar Porfolio</title>
         <meta name="description" content="Porfolio website by Jay Gurjar" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/code.png" />
       </Head>
 
       <main className=' bg-white px-10 '>
