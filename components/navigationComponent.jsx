@@ -10,7 +10,7 @@ const NavigationComp = (props) => {
             <ul className=" flex items-center">
               <li>
                 <a className='bg-gradient-to-t from-cyan-400 to-teal-400 text-white px-5 py-3 rounded-xl ml-6' href='#skills'>
-                  Experience and Skills
+                  Experience 
                 </a>
               </li>
               <li>

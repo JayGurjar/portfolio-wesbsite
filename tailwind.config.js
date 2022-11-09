@@ -6,6 +6,8 @@ module.exports = {
     extend: {
       fontFamily:{
         burtons: 'burtons',
+        nimubsOblique: 'nimbusOblique',
+        nimbusRegular: 'nimbusRegular'
       }
     },
   },

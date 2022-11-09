@@ -3,6 +3,7 @@ import {AiFillLinkedin,AiFillGithub} from 'react-icons/ai'
 import Image from "next/image";
 import wave from '../public/wave.png'
 import Skills from "./skills";
+import Cartoon from '../public/Cartoon-1.png'
 import AboutMe from "./aboutMe";
 import Porfolio from "./portfolio";
 
@@ -29,7 +30,7 @@ const BodyComp = (props) => {
         <div className="justify-center">
             <div className="relative bg-gradient-to-b from-teal-300 to-white rounded-full w-80 h-80 overflow-hidden mx-auto md:h-100 md:w-96">
                 <Image
-                    src={wave}
+                    src={Cartoon}
                     fill={true}
                 />
             </div>
