@@ -19,10 +19,10 @@ const BodyComp = (props) => {
             </p>
         </div>
         <div className="text-4xl flex justify-center py-5 gap-16">
-            <a href="https://www.linkedin.com/in/jaygurjar/" target={'_blank'}>
+            <a href="https://www.linkedin.com/in/jaygurjar/" target={'_blank'} rel='noreferrer'>
                 <AiFillLinkedin/>
             </a>
-            <a href="https://github.com/JayGurjar" target={'_blank'}>
+            <a href="https://github.com/JayGurjar" target={'_blank'} rel='noreferrer'>
                 <AiFillGithub/>
             </a>
         </div>
