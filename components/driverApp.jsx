@@ -4,13 +4,16 @@ import BodyComp from "./bodyComponent";
 
 const App = (props) => {
 
-
-    return (
+  return (
+    <div className={'dark'}>
+      <div className={'bg-white px-10'}>
         <div className='min-h-screen'>
           <NavigationComp />
           <BodyComp />
         </div>
-    )
+      </div>
+    </div>
+  )
 }
 
 export default App;
