@@ -5,12 +5,10 @@ import BodyComp from "./bodyComponent";
 const App = (props) => {
 
   return (
-    <div className={'dark'}>
-      <div className={'bg-white px-5'}>
-        <div className='min-h-screen'>
-          <NavigationComp />
-          <BodyComp />
-        </div>
+    <div className={'bg-white px-5 text-black'}>
+      <div className='min-h-screen'>
+        <NavigationComp />
+        <BodyComp />
       </div>
     </div>
   )
