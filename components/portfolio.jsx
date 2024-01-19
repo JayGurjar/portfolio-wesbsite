@@ -2,7 +2,7 @@ import Image from "next/image"
 import FurniteManagement from '../public/furniture-management.webp';
 import RentMangement from '../public/rent-management.png';
 import RideSharing from '../public/ride-sharing.webp';
-import VitalizeImage from '../public/Vitalize-Poster.PNG'
+import VitalizeImage from '../public/Vitalize-Poster.png'
 import LearningManagement from '../public/learning-management.webp'
 
 
