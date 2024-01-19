@@ -10,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/code.png" />
       </Head>
 
-      <main className=' bg-white px-10 '>
+      <main className=' bg-white px-10 w-fit'>
         <App/>
       </main>
     </div>
