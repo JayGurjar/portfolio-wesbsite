@@ -19,7 +19,7 @@ const NavigationComp = (props) => {
                 </a>
               </li>
               <li>
-                <a href='https://drive.google.com/uc?export=download&id=1Qy8czzJ5urhTQqy_3RjGTx-4uoYL1FC2' className='bg-gradient-to-t from-cyan-400 to-teal-400 text-white px-5 py-3 rounded-xl ml-6'> 
+                <a href='https://drive.google.com/file/d/1BQKsbgRQ2MNuYDsYlhlpg1RXs6fQYYm0/view?usp=sharing'target='_blank' rel='noreferrer' className='bg-gradient-to-t from-cyan-400 to-teal-400 text-white px-5 py-3 rounded-xl ml-6'> 
                     Resume 
                 </a>
               </li>

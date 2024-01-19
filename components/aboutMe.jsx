@@ -80,17 +80,17 @@ const AboutMe = (props) => {
                         Andriod/IOS Development
                     </h3>
                     <p className='font-nimbusRegular'>
-                        Almost 1 year of experience in developing full stack mobile applications with an immersive
+                        1+ year of experience in developing full stack mobile applications with an immersive
                         UI and scalable backend.
                     </p>
                     <h4 className=' py-4 font-semibold text-teal-600'>
                         Tools I use
                     </h4>
                     <li className=' font-nimbusRegular text-grey-800 py-1'><span className="text-teal-500">React Native</span> on top of JS/TS</li>
-                    <li className=' font-nimbusRegular text-grey-800 py-1'><span className="text-teal-500">Kotlin/Swift</span> for some OS specific features</li>
-                    <li className=' font-nimbusRegular text-grey-800 py-1 pb-4'>Experienced in using <span className="text-teal-500">Amplify </span> backend frameworks</li>
+                    <li className=' font-nimbusRegular text-grey-800 py-1'><span className="text-teal-500">Java</span> for some OS specific features</li>
+                    <li className=' font-nimbusRegular text-grey-800 py-1 pb-4'>Built automated data processsing pipelines to read data from <span className="text-teal-500">S3</span> and feed into <span className="text-teal-500">GraphQL </span></li>
+                    <li className=' font-nimbusRegular text-grey-800 py-1 pb-4'>Experienced in using services like <span className="text-teal-500">AWS IoT Core, GCP APIs </span> backend frameworks</li>
                 </div>
-                
             </div>
         </div>
     )

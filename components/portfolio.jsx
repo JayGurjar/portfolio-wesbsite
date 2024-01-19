@@ -2,7 +2,7 @@ import Image from "next/image"
 import FurniteManagement from '../public/furniture-management.webp';
 import RentMangement from '../public/rent-management.png';
 import RideSharing from '../public/ride-sharing.webp';
-import StockStatement from '../public/stock-statment.PNG'
+import VitalizeImage from '../public/Vitalize-Poster.PNG'
 import LearningManagement from '../public/learning-management.webp'
 
 
@@ -18,6 +18,28 @@ const Porfolio = (props) => {
                Please find the github links associated below.
             </p>
             <div className="lg:flex gap-10">
+            <div className='text-center shadow-2xl p-10 rounded-2xl my-10 lg:w-1/3'>
+                    <Image
+                        src={VitalizeImage}
+                        width={300}
+                        style={{display: 'revert'}}
+                        className='rounded-xl object-cover'
+                    />
+                    <p className=' text-lg font-burtons font-medium pt-4 pb-2'>
+                        <a href="https://www.vitalize.mom/" rel='noreferrer' target={'_blank'} className='text-blue-400 underline'>
+                            Vitalize
+                        </a>
+                    </p>
+                    <p className=" font-nimbusRegular">
+                      An Android application for fetal heart rate and contraction monitoring to relieve anxiety among new mothers
+                    </p>
+                    <h4 className=' py-4 font-semibold text-teal-600'>
+                        Tools I used
+                    </h4>
+                    <li className=' font-nimbusRegular text-grey-800 py-1'>React Native on top of JS to build UI</li>
+                    <li className=' font-nimbusRegular text-grey-800 py-1'>Fed data to the S3 using AWS IoT Core sdk</li>
+                    <li className=' font-nimbusRegular text-grey-800 py-1'>Queues to handle heavy load</li>
+                </div>
             <div className='text-center shadow-2xl p-10 rounded-2xl my-10 lg:w-1/3'>
                     <Image
                         src={LearningManagement}
@@ -66,27 +88,6 @@ const Porfolio = (props) => {
                     <li className=' font-nimbusRegular text-grey-800 py-1'>React Native on top of JS for UI</li>
                     <li className=' font-nimbusRegular text-grey-800 py-1'>AWS Amplify for a scalable backend</li>
                     <li className=' font-nimbusRegular text-grey-800 py-1'>DynamoDB as the database</li>
-                </div>
-                <div className='text-center shadow-2xl p-10 rounded-2xl my-10 lg:w-1/3'>
-                    <Image
-                        src={StockStatement}
-                        width={300}
-                        style={{display: 'revert'}}
-                        className='rounded-xl object-cover'
-                    />
-                    <p className=' text-lg font-burtons font-medium pt-4 pb-2'>
-                        <a href="https://github.com/JayGurjar/StockPortfolioStatementGenerator" rel='noreferrer' target={'_blank'} className='text-blue-400 underline'>
-                            Stock Market Statement generator
-                        </a>
-                    </p>
-                    <p className=" font-nimbusRegular">
-                       A stock market statement generator based on an JSON input from the user. Would calculate the profit/loss 
-                       at the end of trading day. 
-                    </p>
-                    <h4 className=' py-4 font-semibold text-teal-600'>
-                        Tools I used
-                    </h4>
-                    <li className=' font-nimbusRegular text-grey-800 py-1'>Python for scripting and file IO purposes</li>
                 </div>
             </div>
         </div>
