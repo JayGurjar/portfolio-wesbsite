@@ -13,7 +13,7 @@ const AboutMe = (props) => {
                 Experience 
             </h3>
             <p className=" text-md py-2 leading-8 font-mono list-disc ml-10">
-                Versa Networks | Full Stack Engineer | March 2024 - Present </br>
+                Versa Networks | Full Stack Engineer | March 2024 - Present <br> </br>
                 I develop and maintain customer-facing web applications serving users across the globe, built with React, TypeScript, and Spring Boot. 
                 My focus extends beyond feature development to creating tools and systems that amplify team effectiveness.
             </p>
@@ -34,8 +34,7 @@ const AboutMe = (props) => {
                         Full Stack Development
                     </h3>
                     <p className=' font-nimbusRegular'>
-                        I specialize in building end-to-end web applications that balance beautiful, responsive interfaces with secure transports. 
-                        With 2+ years of professional experience, I&apos;ve delivered production applications serving global user bases.
+                        With 2+ years of professional experience, I build/optimize web applications that balance beautiful, responsive interfaces with secure transports.
                     </p>
                     <h4 className=' py-4 font-semibold text-teal-600'>
                         What I bring
