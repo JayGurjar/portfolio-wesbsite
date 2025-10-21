@@ -24,7 +24,7 @@ const AboutMe = (props) => {
                 I bring a wide variety of skills like full-stack web development, mobile development and scripting.
             </p>
             <div className=' lg:flex  gap-10'>
-                <div className='text-center shadow-2xl rounded-2xl my-10 lg:w-1/3'>
+                <div className='text-center shadow-2xl rounded-2xl p-10 my-10 lg:w-1/3'>
                     <Image
                         src={FullStackImage}
                         width={100}
