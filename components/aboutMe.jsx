@@ -35,7 +35,7 @@ const AboutMe = (props) => {
                     </h3>
                     <p className=' font-nimbusRegular'>
                         I specialize in building end-to-end web applications that balance beautiful, responsive interfaces with secure transports. 
-                        With 2+ years of professional experience, I &apos;'ve delivered production applications serving global user bases.
+                        With 2+ years of professional experience, I&apos;ve delivered production applications serving global user bases.
                     </p>
                     <h4 className=' py-4 font-semibold text-teal-600'>
                         What I bring
