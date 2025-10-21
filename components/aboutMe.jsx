@@ -13,12 +13,10 @@ const AboutMe = (props) => {
                 Experience 
             </h3>
             <p className=" text-md py-2 leading-8 font-mono list-disc ml-10">
-                I am currently working for Versa Networks as a <span className="text-teal-500"> front-end web developer</span> responsible for making
-                client side webpages used by over 10000+ customers world-wide using React on top on JS/TS. 
-                I have also brought up <span className="text-teal-500"> Karma UI testing framework and Storybook </span> for production level applications.
-                I have contributed in making the existing code base <span className="text-teal-500"> faster by over 7% </span>. I will also be working with the backend 
-                team using <span className="text-teal-500"> Springboot </span> before ending my current term.
-
+                I am currently working for Versa Networks as a <span className="text-teal-500"> full stack engineer</span> responsible for making
+                client side webpages used by customers world-wide using React on top on JS/TS with Springboot. I have accomplished engineering long-term solutions that 
+                increase developer productivity like enterprise component generators and automatic merge review bots leveraging AI.
+                I have contributed in making the existing code base <span className="text-teal-500"> faster by over 7% </span>.
             </p>
             <h3 className="font-semibold text-3xl py-1">
                 Skills
