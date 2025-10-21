@@ -5,15 +5,13 @@ import Image from 'next/image';
 
 
 const AboutMe = (props) => {
-
-
     return (
         <div>
             <h3 className=" font-semibold text-3xl py-1">
                 Experience 
             </h3>
             <p className=" text-md py-2 leading-8 font-mono list-disc ml-10">
-                Versa Networks | Full Stack Engineer | March 2024 - Present <br> </br>
+                Versa Networks | Full Stack Engineer | March 2024 - Present <br />
                 I develop and maintain customer-facing web applications serving users across the globe, built with React, TypeScript, and Spring Boot. 
                 My focus extends beyond feature development to creating tools and systems that amplify team effectiveness.
             </p>
@@ -28,6 +26,7 @@ const AboutMe = (props) => {
                     <Image
                         src={FullStackImage}
                         width={100}
+                        alt="Full Stack Development"
                         style={{display: 'revert'}}
                     />
                     <h3 className=' text-lg font-burtons font-medium pt-4 pb-2'>
@@ -51,6 +50,7 @@ const AboutMe = (props) => {
                         src={ScritingImage}
                         width={100}
                         height={100}
+                        alt="OOP Scripting"
                         style={{display: 'revert'}}
                     />
                     <h3 className=' text-lg font-burtons font-medium pt-4 pb-2'>
@@ -70,6 +70,7 @@ const AboutMe = (props) => {
                     <Image
                         src={MobileDev}
                         width={50}
+                        alt="Mobile Development"
                         style={{display: 'revert'}}
                     />
                     <h3 className=' text-lg font-burtons font-medium pt-4 pb-2'>
