@@ -15,7 +15,7 @@ const BodyComp = (props) => {
             <h2 className=" text-7xl text-cyan-500 font-semibold md:text-10xl">Jay Gurjar</h2>
             <h3 className="text-3xl py-5 md:text-6xl">Full Stack Engineer | React & Spring Boot Specialist | AI </h3>
             <p className="font-mono leading-7 md:text-3xl">
-                Full Stack Engineer passionate about creating efficient, user-centric applications. I combine React expertise with backend scalability to deliver solutions that make a real impact—from AI-powered developer tools to performance optimizations that move the needle.
+                Full Stack Engineer passionate about creating efficient, user-centric applications. I combine React expertise with backend scalability to deliver solutions that make a real impact from AI-powered developer tools to performance optimizations that move the needle.
             </p>
         </div>
         <div className="text-4xl flex justify-center py-5 gap-16">
