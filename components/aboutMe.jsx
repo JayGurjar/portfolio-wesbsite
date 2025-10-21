@@ -13,10 +13,9 @@ const AboutMe = (props) => {
                 Experience 
             </h3>
             <p className=" text-md py-2 leading-8 font-mono list-disc ml-10">
-                I am currently working for Versa Networks as a <span className="text-teal-500"> full stack engineer</span> responsible for making
-                client side webpages used by customers world-wide using React on top on JS/TS with Springboot. I have accomplished engineering long-term solutions that 
-                increase developer productivity like enterprise component generators and automatic merge review bots leveraging AI.
-                I have contributed in making the existing code base <span className="text-teal-500"> faster by over 7% </span>.
+                Versa Networks | Full Stack Engineer | March 2024 - Present
+                I develop and maintain customer-facing web applications serving users across the globe, built with React, TypeScript, and Spring Boot. 
+                My focus extends beyond feature development to creating tools and systems that amplify team effectiveness.
             </p>
             <h3 className="font-semibold text-3xl py-1">
                 Skills
@@ -35,18 +34,18 @@ const AboutMe = (props) => {
                         Full Stack Development
                     </h3>
                     <p className=' font-nimbusRegular'>
-                        2+ years of experience in developing full stack web applications with an immersive
-                        front end and scalable backend.
+                        I specialize in building end-to-end web applications that balance beautiful, responsive interfaces with robust, scalable backends. 
+                        With 2+ years of professional experience, I've delivered production applications serving global user bases.
                     </p>
                     <h4 className=' py-4 font-semibold text-teal-600'>
-                        Tools I use
+                        What I bring
                     </h4>
-                    <li className=' font-nimbusRegular text-grey-800 py-1'><span className="text-teal-500"> JQuery </span> to manipulate DOM</li>
-                    <li className=' font-nimbusRegular text-grey-800 py-1'><span className="text-teal-500"> Jest </span> to test UI components</li>
-                    <li className=' font-nimbusRegular text-grey-800 py-1'> <span className="text-teal-500">React </span> on top of JS/TS</li>
-                    <li className=' font-nimbusRegular text-grey-800 py-1'><span className="text-teal-500"> Puppeteer </span> to end-to-end testing</li>
-                    <li className=' font-nimbusRegular text-grey-800 py-1'>Used<span className="text-teal-500"> NextJS </span> for SSR applications</li>
-                    <li className=' font-nimbusRegular text-grey-800 py-1 pb-4'>Experienced in using <span className="text-teal-500"> Spring Boot, Amplify or Flask </span> as backend frameworks</li>
+                    <li className=' font-nimbusRegular text-grey-800 py-1'>Modern React development with hooks, state management, and performance optimization </li>
+                    <li className=' font-nimbusRegular text-grey-800 py-1'>RESTful API design and implementation</li>
+                    <li className=' font-nimbusRegular text-grey-800 py-1'>React </span> on top of JS/TS</li>
+                    <li className=' font-nimbusRegular text-grey-800 py-1'>Database optimization and security</li>
+                    <li className=' font-nimbusRegular text-grey-800 py-1'>Responsive, accessible UI/UX</li>
+                    <li className=' font-nimbusRegular text-grey-800 py-1 pb-4'>CI/CD pipeline integration</li>
                 </div>
                 <div className='text-center shadow-2xl p-10 rounded-2xl my-10 lg:w-1/3'>
                     <Image
@@ -59,14 +58,14 @@ const AboutMe = (props) => {
                         OOP Scripting
                     </h3>
                     <p className=' font-nimbusRegular'>
-                        3 years of academic scripting experience
+                        Strong foundation in object-oriented programming and algorithm design, honed through 3+ years of academic and professional work.
                     </p>
                     <h4 className=' py-4 font-semibold text-teal-600'>
-                        Tools I use
+                        Core Strengths
                     </h4>
-                    <li className=' font-nimbusRegular text-grey-800 py-1'>Experinced in scripting using <span className="text-teal-500"> C, C++ and Python </span> </li>
-                    <li className=' font-nimbusRegular text-grey-800 py-1'>Used C++ to program <span className="text-teal-500"> micro-processors </span> for a project</li>
-                    <li className=' font-nimbusRegular text-grey-800 py-1 pb-4'>Used <span className="text-teal-500"> Python </span> to program a stock-market statement generator</li>
+                    <li className=' font-nimbusRegular text-grey-800 py-1'>Data structures and algorithm optimization </li>
+                    <li className=' font-nimbusRegular text-grey-800 py-1'>System design and architecture</li>
+                    <li className=' font-nimbusRegular text-grey-800 py-1 pb-4'>Problem-solving and computational thinking</li>
                 </div>
                 <div className='text-center shadow-2xl p-10 rounded-2xl my-10 lg:w-1/3'>
                     <Image
@@ -78,16 +77,15 @@ const AboutMe = (props) => {
                         Andriod/IOS Development
                     </h3>
                     <p className='font-nimbusRegular'>
-                        1+ year of experience in developing full stack mobile applications with an immersive
-                        UI and scalable backend.
+                        I create cross-platform mobile experiences that users love. With over an year building production mobile apps, I understand the nuances of mobile UX, performance constraints, and platform-specific design patterns.
                     </p>
                     <h4 className=' py-4 font-semibold text-teal-600'>
-                        Tools I use
+                        Capabilites
                     </h4>
-                    <li className=' font-nimbusRegular text-grey-800 py-1'><span className="text-teal-500">React Native</span> on top of JS/TS</li>
-                    <li className=' font-nimbusRegular text-grey-800 py-1'><span className="text-teal-500">Java</span> for some OS specific features</li>
-                    <li className=' font-nimbusRegular text-grey-800 py-1 pb-4'>Built automated data processsing pipelines to read data from <span className="text-teal-500">S3</span> and feed into <span className="text-teal-500">GraphQL </span></li>
-                    <li className=' font-nimbusRegular text-grey-800 py-1 pb-4'>Experienced in using services like <span className="text-teal-500">AWS IoT Core, GCP APIs </span> backend frameworks</li>
+                    <li className=' font-nimbusRegular text-grey-800 py-1'>Native Android development with modern tooling</li>
+                    <li className=' font-nimbusRegular text-grey-800 py-1'>Cross-platform mobile architecture</li>
+                    <li className=' font-nimbusRegular text-grey-800 py-1 pb-4'>Real-time features and location services</li>
+                    <li className=' font-nimbusRegular text-grey-800 py-1 pb-4'>Backend integration and API consumption</li>
                 </div>
             </div>
         </div>
