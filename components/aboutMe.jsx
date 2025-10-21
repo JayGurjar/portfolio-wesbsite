@@ -34,15 +34,15 @@ const AboutMe = (props) => {
                         Full Stack Development
                     </h3>
                     <p className=' font-nimbusRegular'>
-                        I specialize in building end-to-end web applications that balance beautiful, responsive interfaces with robust, scalable backends. 
+                        I specialize in building end-to-end web applications that balance beautiful, responsive interfaces with secure transports. 
                         With 2+ years of professional experience, I've delivered production applications serving global user bases.
                     </p>
                     <h4 className=' py-4 font-semibold text-teal-600'>
                         What I bring
                     </h4>
                     <li className=' font-nimbusRegular text-grey-800 py-1'>Modern React development with hooks, state management, and performance optimization </li>
-                    <li className=' font-nimbusRegular text-grey-800 py-1'>RESTful API design and implementation</li>
-                    <li className=' font-nimbusRegular text-grey-800 py-1'>React </span> on top of JS/TS</li>
+                    <li className=' font-nimbusRegular text-grey-800 py-1'> <span className="text-teal-500"> RESTful API </span> design and implementation</li>
+                    <li className=' font-nimbusRegular text-grey-800 py-1'> <span className="text-teal-500">  React </span> on top of JS/TS</li>
                     <li className=' font-nimbusRegular text-grey-800 py-1'>Database optimization and security</li>
                     <li className=' font-nimbusRegular text-grey-800 py-1'>Responsive, accessible UI/UX</li>
                     <li className=' font-nimbusRegular text-grey-800 py-1 pb-4'>CI/CD pipeline integration</li>
@@ -82,7 +82,7 @@ const AboutMe = (props) => {
                     <h4 className=' py-4 font-semibold text-teal-600'>
                         Capabilites
                     </h4>
-                    <li className=' font-nimbusRegular text-grey-800 py-1'>Native Android development with modern tooling</li>
+                    <li className=' font-nimbusRegular text-grey-800 py-1'>Android development with modern tooling</li>
                     <li className=' font-nimbusRegular text-grey-800 py-1'>Cross-platform mobile architecture</li>
                     <li className=' font-nimbusRegular text-grey-800 py-1 pb-4'>Real-time features and location services</li>
                     <li className=' font-nimbusRegular text-grey-800 py-1 pb-4'>Backend integration and API consumption</li>
